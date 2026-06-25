@@ -26,21 +26,7 @@
 
 LLM-as-a-Judge uses a language model to evaluate the output of another language model (or the same model) against a defined rubric or set of criteria.
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│  User Query  │────>│  Target LLM  │────>│   Output     │
-└──────────────┘     └──────────────┘     └──────┬───────┘
-                                                  │
-                     ┌──────────────┐              │
-                     │  Judge LLM   │<─────────────┘
-                     │  + Rubric    │
-                     └──────┬───────┘
-                            │
-                     ┌──────v───────┐
-                     │    Score     │
-                     │  + Reasoning │
-                     └──────────────┘
-```
+![LLM-as-a-Judge Flow](../assets/07_judge.png)
 
 ---
 

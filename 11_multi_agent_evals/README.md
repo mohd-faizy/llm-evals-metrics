@@ -26,21 +26,7 @@
 
 A multi-agent system uses two or more LLM-powered agents that interact to accomplish a shared or distributed goal.
 
-```
-                ┌────────────────────────────────────────┐
-                │          MULTI-AGENT SYSTEM             │
-                │                                        │
-  User Goal ───>│   ┌──────────┐     ┌──────────┐       │──> Result
-                │   │ Agent A  │<───>│ Agent B  │       │
-                │   │(Planner) │     │(Executor)│       │
-                │   └────┬─────┘     └──────────┘       │
-                │        │                               │
-                │   ┌────v─────┐     ┌──────────┐       │
-                │   │ Agent C  │     │ Agent D  │       │
-                │   │(Reviewer)│<───>│(Specialist)│     │
-                │   └──────────┘     └──────────┘       │
-                └────────────────────────────────────────┘
-```
+![Multi-Agent System](../assets/11_mul_agent_eval.png)
 
 ---
 

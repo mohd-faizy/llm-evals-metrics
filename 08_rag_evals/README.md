@@ -23,17 +23,7 @@
 
 ## RAG System Overview
 
-```
-┌───────────┐    ┌──────────────┐    ┌───────────────┐    ┌──────────────┐
-│   User    │───>│  Retriever   │───>│   Reranker     │───>│  Generator   │───> Response
-│   Query   │    │  (search,    │    │   (optional)   │    │  (LLM +      │
-│           │    │   embed,     │    │                │    │   context)   │
-└───────────┘    │   vector DB) │    └───────────────┘    └──────────────┘
-                 └──────────────┘
-                       │                                        │
-                  Retrieved Docs                          Generated Answer
-                  (context)                               (+ citations)
-```
+![RAG System Overview](../assets/08_rag_sys.png)
 
 A RAG system has **two distinct failure surfaces**:
 1. **Retrieval failure** — The right documents are not retrieved

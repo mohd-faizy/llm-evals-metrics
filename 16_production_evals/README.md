@@ -40,21 +40,7 @@
 
 ## The Evaluation Lifecycle
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                      EVALUATION LIFECYCLE                         │
-│                                                                  │
-│  Offline Evals ──> Shadow Test ──> Canary ──> Full Deploy        │
-│       │                                           │              │
-│       │          ┌─────────────────────────────────┘              │
-│       │          v                                                │
-│       │     Online Eval ──> Drift Detection ──> Alert ──> Fix    │
-│       │          │                                    │           │
-│       │          v                                    v           │
-│       └──── User Feedback ──> Update Eval Dataset ──> Re-eval    │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
+![Evaluation Lifecycle](../assets/16_prod_evals.png)
 
 ---
 

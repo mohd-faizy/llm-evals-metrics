@@ -46,27 +46,7 @@ Without memory, every conversation starts from scratch. Memory enables:
 
 ### Memory Architecture
 
-```
-┌──────────────────────────────────────────────────────────┐
-│                    MEMORY SYSTEM                          │
-│                                                          │
-│  ┌──────────────┐   ┌────────────────┐   ┌───────────┐  │
-│  │   In-Context  │   │    Episodic     │   │  Semantic │  │
-│  │   Memory      │   │    Memory       │   │  Memory   │  │
-│  │               │   │                │   │           │  │
-│  │  Recent turns │   │  Past sessions │   │  User     │  │
-│  │  Current task │   │  Interactions  │   │  profile  │  │
-│  │  state        │   │  Events        │   │  Facts    │  │
-│  └──────┬───────┘   └───────┬────────┘   └─────┬─────┘  │
-│         └──────────────┬─────┘─────────────────┘         │
-│                        v                                  │
-│              ┌──────────────────┐                         │
-│              │   Memory         │                         │
-│              │   Manager        │──> Retrieve, Store,     │
-│              │                  │    Update, Forget       │
-│              └──────────────────┘                         │
-└──────────────────────────────────────────────────────────┘
-```
+![Memory System](../assets/13_mem_eval.png)
 
 ---
 

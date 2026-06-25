@@ -26,17 +26,7 @@
 
 Multimodal systems process and/or generate content across multiple modalities:
 
-```
-               ┌──────────────────────────────────────┐
-               │         MULTIMODAL LLM                │
-               │                                      │
-  Image   ────>│                                      │──> Text
-  Text    ────>│   Understand & Reason                │──> Image
-  Audio   ────>│   Across Modalities                  │──> Audio
-  Video   ────>│                                      │──> Code
-  Document ───>│                                      │──> Structured Data
-               └──────────────────────────────────────┘
-```
+![Multimodal Systems](../assets/17_multiMod_eval.png)
 
 ---
 

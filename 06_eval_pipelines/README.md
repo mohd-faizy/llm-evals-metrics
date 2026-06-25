@@ -47,17 +47,7 @@ The difference is **repeatability, consistency, and trust**. A pipeline ensures:
 
 ### High-Level Architecture
 
-```
-┌──────────┐    ┌───────────┐    ┌───────────┐    ┌────────────┐    ┌──────────┐
-│  Dataset  │───>│ Execution │───>│  Scoring  │───>│ Aggregation│───>│ Reporting│
-│  Registry │    │  Engine   │    │  Engine   │    │  & Storage │    │ & Alerts │
-└──────────┘    └───────────┘    └───────────┘    └────────────┘    └──────────┘
-     │               │               │                  │                │
-     v               v               v                  v                v
-  Versioned      Run model/       Apply metrics     Store results    Dashboards,
-  test cases     pipeline on      (lexical,         in DB/file       CI gates,
-  + rubrics      each case        semantic, judge)  with metadata    notifications
-```
+![Pipeline Architecture](../assets/06_cr.png)
 
 ### Component Responsibilities
 

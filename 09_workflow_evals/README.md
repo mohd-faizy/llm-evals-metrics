@@ -24,19 +24,7 @@
 
 A **workflow** is a deterministic or semi-deterministic sequence of LLM calls and operations, where the control flow is defined by the developer (not by the model).
 
-```
-                    ┌─────────────────────────┐
-   Single-turn      │        Workflow          │       Agent
-   ┌─────────┐      │  ┌───┐  ┌───┐  ┌───┐   │     ┌─────────┐
-   │ Prompt → │      │  │ A │─>│ B │─>│ C │   │     │ Plan →  │
-   │ Response │      │  └───┘  └───┘  └───┘   │     │ Act →   │
-   └─────────┘      │  Control flow is fixed   │     │ Observe │
-                    └─────────────────────────┘     │ → Loop  │
-                                                     └─────────┘
-   Simple              Intermediate                   Complex
-   1 LLM call          2-10+ LLM calls               Open-ended
-   No state            Managed state                  Self-directed
-```
+![LLM Workflows vs Agents vs Single-Turn](../assets/09_workflow.png)
 
 ---
 

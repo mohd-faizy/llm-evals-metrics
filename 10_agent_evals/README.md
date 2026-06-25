@@ -27,21 +27,7 @@
 
 An **agent** is a system that uses an LLM to autonomously plan and execute multi-step actions to achieve a goal.
 
-```
-                    ┌──────────────────────────────────┐
-                    │           AGENT LOOP              │
-                    │                                    │
-    Goal ──────────>│  Plan → Act → Observe → Reflect   │──────> Result
-                    │    ↑                      │        │
-                    │    └──────────────────────┘        │
-                    │         (iterate)                  │
-                    └──────────────────────────────────┘
-                              │
-                         Uses Tools:
-                    - Search, Browse, Code
-                    - APIs, Databases, Files
-                    - Other agents
-```
+![Agent Loop](../assets/10_agent_loop.png)
 
 ### Agent vs Workflow
 

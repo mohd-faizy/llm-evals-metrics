@@ -1,7 +1,5 @@
 # 19. Research Papers
 
-Use this section as a reading guide, not a dump.
-
 ## Categories
 
 - `papers/llm_judge/`

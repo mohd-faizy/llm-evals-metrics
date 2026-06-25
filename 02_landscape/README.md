@@ -24,7 +24,7 @@ The LLM evaluation ecosystem can be divided into four categories:
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                    EVALUATION ECOSYSTEM                       │
+│                    EVALUATION ECOSYSTEM                      │
 ├──────────────┬──────────────┬───────────────┬────────────────┤
 │  Eval        │ Observability│  Benchmark    │  Judge         │
 │  Frameworks  │ & Tracing    │  Suites       │  Models        │

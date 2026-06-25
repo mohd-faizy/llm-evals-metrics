@@ -46,20 +46,7 @@ But they also have unique challenges:
 
 ## Coding Eval Spectrum
 
-```
-Simple ◄──────────────────────────────────────────────────────► Complex
-
-┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────────┐
-│ Function │   │ Class /  │   │ File /   │   │ Repository   │
-│ Complet. │   │ Module   │   │ Multi-   │   │ Level (Agent)│
-│          │   │ Generat. │   │ File     │   │              │
-│ HumanEval│   │ ClassEval│   │ CrossCode│   │ SWE-Bench    │
-│ MBPP     │   │          │   │ Eval     │   │ Verified     │
-└──────────┘   └──────────┘   └──────────┘   └──────────────┘
-
-  One-shot        One-shot       Multi-step       Agentic
-  generation      generation     generation       (plan + act)
-```
+![Coding Eval Spectrum](../assets/18_code_ag_evl.png)
 
 ---
 
