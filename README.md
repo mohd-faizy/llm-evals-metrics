@@ -99,22 +99,7 @@ jupyter lab notebooks/
 
 ## 📐 Evaluation Architecture Taxonomy
 
-```
-                          ┌─────────────────────────────────────────┐
-                          │   LLM Evaluation Architecture Matrix    │
-                          └────────────────────┬────────────────────┘
-                                               │
-               ┌───────────────────────────────┴───────────────────────────────┐
-               ▼                                                               ▼
- ┌───────────────────────────┐                                   ┌───────────────────────────┐
- │   Offline Evals (Pre-Dev) │                                   │  Online Evals (Production) │
- ├───────────────────────────┤                                   ├───────────────────────────┤
- │ • Golden Test Datasets    │                                   │ • Real-time Telemetry     │
- │ • Deterministic Metrics   │                                   │ • Shadow Deployments      │
- │ • LLM-as-a-Judge Suites   │                                   │ • User Explicit Feedback  │
- │ • CI/CD Regression Tests  │                                   │ • Operational Latency/Cost│
- └───────────────────────────┘                                   └───────────────────────────┘
-```
+<img src="assets/rdmd01.png" alt="LLM Evaluation Architecture Taxonomy" style="width: 100%; max-width: 800px; display: block; margin: auto;" />
 
 ---
 
