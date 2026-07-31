@@ -79,6 +79,7 @@ cd llm-evals-metrics
 ```
 
 ### 2. Set Up Virtual Environment
+
 ```bash
 # Create environment
 python -m venv venv
@@ -90,6 +91,7 @@ source venv/bin/activate
 ```
 
 ### 3. Launch Jupyter Notebooks
+
 ```bash
 pip install jupyterlab
 jupyter lab notebooks/
