@@ -23,6 +23,18 @@ This repository provides a complete end-to-end curriculum, architecture blueprin
 
 ---
 
+## 📑 Table of Contents
+
+- [📌 Overview](#-overview)
+- [📓 Interactive Hands-on Notebooks](#-interactive-hands-on-notebooks)
+- [🗺️ Curriculum & Repository Structure](#️-curriculum--repository-structure)
+- [⚡ Quick Start Guide](#-quick-start-guide)
+- [📐 Evaluation Architecture Taxonomy](#-evaluation-architecture-taxonomy)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
 ## 📓 Interactive Hands-on Notebooks
 
 Dive straight into runnable Jupyter notebooks equipped with structured tutorials, code snippets, visual architecture diagrams, and real-world evaluation pipelines:
@@ -37,6 +49,8 @@ Dive straight into runnable Jupyter notebooks equipped with structured tutorials
 | **06: Offline vs Online Evals** | CI/CD unit testing vs production shadow evaluation, user feedback loops, and telemetry | [Open Notebook](notebooks/06_offline_vs_online_evals.ipynb) |
 | **07: Model-Level Metrics** | Perplexity, BLEU/ROUGE, Exact Match, Pass@k, and model capability evaluation metrics | [Open Notebook](notebooks/07_model_level_evals.ipynb) |
 | **08: Benchmarking Harnesses** | Integrating open-source harnesses (lm-evaluation-harness, Lighteval, DeepEval, Ragas) | [Open Notebook](notebooks/08_benchmarking_and_eval_harnesses.ipynb) |
+| **09: Context Rot in LLMs** | Deep-dive guide on effective context window decay, attention limits, & context engineering | [Open Guide](notebooks/Context_Rot_llm.md) |
+| **10: LLM Knowledge Benchmarks** | Comprehensive suite covering MMLU, TruthfulQA, AGIEval, GPQA, MMLU-Pro, & HLE | [Open Notebook](notebooks/XX_llm_knowledge_benchmarks.ipynb) |
 
 ---
 
