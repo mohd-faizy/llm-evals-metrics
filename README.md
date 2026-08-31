@@ -132,16 +132,16 @@ The [`notebooks/`](notebooks/) directory contains complete, runnable Jupyter not
 
 | Notebook | Topic & Key Concepts | Focus & Implementation | Direct Link |
 | :--- | :--- | :--- | :---: |
-| **01** | **LLM Evaluation Engineering** | Core evaluation taxonomy, why vibe checks fail, deterministic vs model-based metrics | [Launch Notebook](notebooks/01_llm_evals.ipynb) |
-| **02** | **Model vs Application Evals** | Capability benchmarking vs user-facing product evaluation and task alignment | [Launch Notebook](notebooks/02_model_vs_app_evals.ipynb) |
-| **03** | **End-to-End Eval Workflow** | Constructing end-to-end evaluation loops, test suite runners, and scoring aggregation | [Launch Notebook](notebooks/03_end_to_end_eval_workflow.ipynb) |
-| **04** | **Multi-Pipeline Architecture** | Modular evaluation pipelines for multi-stage chains, RAG layers, and agent flows | [Launch Notebook](notebooks/04_multi_pipeline_eval_architecture.ipynb) |
-| **05** | **Mechanisms & Paradigms** | Comparing Deterministic Rules, Heuristics, Embeddings, and LLM-as-a-Judge paradigms | [Launch Notebook](notebooks/05_eval_mechanisms_and_paradigms.ipynb) |
-| **06** | **Offline vs Online Evals** | CI/CD regression suites, shadow deployments, online telemetry, and feedback loops | [Launch Notebook](notebooks/06_offline_vs_online_evals.ipynb) |
-| **07** | **Model-Level Metrics** | Perplexity, BLEU, ROUGE, Exact Match, Pass@k, BERTScore, and String Distance | [Launch Notebook](notebooks/07_model_level_evals.ipynb) |
-| **08** | **Benchmarking Harnesses** | Integrating open-source harnesses (`lm-evaluation-harness`, Lighteval, DeepEval, Ragas) | [Launch Notebook](notebooks/08_benchmarking_and_eval_harnesses.ipynb) |
+| **01** | **LLM Evaluation Engineering** | Core evaluation taxonomy, why vibe checks fail, deterministic vs model-based metrics | [Launch Notebook](notebooks/01_LLM_Evals.ipynb) |
+| **02** | **Model vs Application Evals** | Capability benchmarking vs user-facing product evaluation and task alignment | [Launch Notebook](notebooks/02_Model_vs_App_Evals.ipynb) |
+| **03** | **End-to-End Eval Workflow** | Constructing end-to-end evaluation loops, test suite runners, and scoring aggregation | [Launch Notebook](notebooks/03_End_to_End_Eval_Workflow.ipynb) |
+| **04** | **Multi-Pipeline Architecture** | Modular evaluation pipelines for multi-stage chains, RAG layers, and agent flows | [Launch Notebook](notebooks/04_Multi_Pipeline_Eval_Architecture.ipynb) |
+| **05** | **Mechanisms & Paradigms** | Comparing Deterministic Rules, Heuristics, Embeddings, and LLM-as-a-Judge paradigms | [Launch Notebook](notebooks/05_Eval_Mechanisms_&_Paradigms.ipynb) |
+| **06** | **Offline vs Online Evals** | CI/CD regression suites, shadow deployments, online telemetry, and feedback loops | [Launch Notebook](notebooks/06_Offline_vs_Online_Evals.ipynb) |
+| **07** | **Model-Level Metrics** | Perplexity, BLEU, ROUGE, Exact Match, Pass@k, BERTScore, and String Distance | [Launch Notebook](notebooks/07_Model_Level_Evals.ipynb) |
+| **08** | **Benchmarking Harnesses** | Integrating open-source harnesses (`lm-evaluation-harness`, Lighteval, DeepEval, Ragas) | [Launch Notebook](notebooks/08_Benchmarking_and_Eval_Harnesses.ipynb) |
 | **Guide** | **Context Rot Deep-Dive** | Long-context degradation, attention limits, lost-in-the-middle, and needle tests | [Read Guide](notebooks/Context_Rot_llm.md) |
-| **Bench** | **Knowledge Benchmarks** | Detailed exploration of MMLU, TruthfulQA, AGIEval, GPQA, MMLU-Pro, and HLE | [Launch Notebook](notebooks/XX_llm_knowledge_benchmarks.ipynb) |
+| **Bench** | **Knowledge Benchmarks** | Detailed exploration of MMLU, TruthfulQA, AGIEval, GPQA, MMLU-Pro, and HLE | [Launch Notebook](notebooks/XX_LLM_Knowledge_Benchmarks.ipynb) |
 
 ---
 
